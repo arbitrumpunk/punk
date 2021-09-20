@@ -1,16 +1,16 @@
-const env = "test";
-const chainId = 256;
-const mainSymbol = "HT";
-const etherscanUrl = "https://testnet.hecoinfo.com";
-const contractAddress = "0xf3d9ffd38dec872d66ff23382927de87a029a43c";
+// const env = "test";
+// const chainId = 256;
+// const mainSymbol = "HT";
+// const etherscanUrl = "https://testnet.hecoinfo.com";
+// const contractAddress = "0xf3d9ffd38dec872d66ff23382927de87a029a43c";
 
-// const env = "mainnet";
-// const chainId = 42161;
-// const mainSymbol = "ETH";
-// const etherscanUrl = "https://arbiscan.io";
-// const contractAddress = "0x2706c254a64De1B34499810a3CD3fd2098078cbF";
+const env = "mainnet";
+const chainId = 42161;
+const mainSymbol = "ETH";
+const etherscanUrl = "https://arbiscan.io";
+const contractAddress = "0x796aa66f965a663016efd6731f4724c0a8e80314";
 
-const price = 0.1;
+const price = 0.05;
 
 const chainId0X = "0xa4b1";
 const chainName = "ARBITRUM Mainnet";
@@ -589,7 +589,7 @@ window.onload = () => {
       e.target.classList.remove("animate");
     }, 700);
   };
-  document.getElementById("subContent-info").innerHTML = `here are no bonding curves here. Buying an Arbipunk costs 0.05 ${mainSymbol}. There are no price tiers.`
+  document.getElementById("subContent-info").innerHTML = `Only 100 collectible ArbiPunk on #Arbitrum. <br />here are no bonding curves here. Buying an Arbipunk costs 0.05 ${mainSymbol}. There are no price tiers.`
   var bubblyButtons = document.getElementsByClassName("bubbly-button");
   
   for (var i = 0; i < bubblyButtons.length; i++) {
