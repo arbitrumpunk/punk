@@ -589,7 +589,7 @@ window.onload = () => {
       e.target.classList.remove("animate");
     }, 700);
   };
-  document.getElementById("subContent-info").innerHTML = `Only 100 collectible ArbiPunk on #Arbitrum. <br />here are no bonding curves here. Buying an Arbipunk costs 0.05 ${mainSymbol}. There are no price tiers.`
+  document.getElementById("subContent-info").innerHTML = `Only 1000 collectible ArbiPunk on #Arbitrum. <br />here are no bonding curves here. Buying an Arbipunk costs 0.05 ${mainSymbol}. There are no price tiers.`
   var bubblyButtons = document.getElementsByClassName("bubbly-button");
   
   for (var i = 0; i < bubblyButtons.length; i++) {
